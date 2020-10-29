@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+
+body{
+    font-family: Roboto;
+    font-weight: 500;
+    background-color: #fafafa;
+}
+
+h1{
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+#isq, #der{
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+
+#isq{
+    float: left;
+}
+
+#der{
+    float: right;
+}
+
+
+
+#nav a{
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: Roboto;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding-top: auto;
+}
+
+#nav{
+    display: flex;
+}
+
+#input, #result{
+   border: solid rgb(207, 207, 207) 1px;
+   border-radius: 20px;
+   padding: 30px;
+   width: 400px;
+   margin: 100px auto;
+   background-color: white;
+   box-shadow: 5px 5px 18px 2px #888888;
+
+}
+
+#input #resto , #input #tiempo{
+    display: block;
+}
+
+#input #resto input, #input #tiempo input, input[type=submit]{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 45px;
+    padding: 20px;
+    border: solid rgb(207, 207, 207) 1px;
+    border-radius: 50px;
+    outline: none;
+
+}
+
+input[type=submit]{
+    padding: 15px;
+    text-align: center;
+    display: block;
+}
+
+#input #resto input{
+    display: block;
+    width: 100%
+}
+
+#input #tiempo input{
+    display: inline-block;
+    width: 25%;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    
+}
+
+#tiempo{
+    text-align: center;
+}
+
+#result tr{
+    height: 50px;
+    
+
+}
+
+#result td{
+    border-bottom: 2px dotted  rgb(207, 207, 207);
+    margin: 0vmin;
+}
+
+#header{
+    width: 90%;
+    margin: 1%;
+    background-color: rgb(209, 209, 209);
+    border-radius: 20px;
+    padding: 1%;
+    display: flexbox;
+    margin-bottom: 20px;
+}
+
+#header a{
+    
+    display: inline-block;
+    height: 50px;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    border-radius: 15px;
+    background-color: rgb(122, 122, 122);
+    text-decoration: none;
+
+}
